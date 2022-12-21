@@ -9,6 +9,9 @@ RESET RULES
 html {
   font-family: "Almarai", sans-serif;
 }
+img {
+  width: 100%;
+}
 
 ul,
 ol,
@@ -27,6 +30,11 @@ a {
 /**************************
 HEADER
 ***************************/
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
 .nav li {
   display: inline-block;
   padding: 0 19px;
@@ -49,4 +57,49 @@ HEADER
 }
 .logo {
   margin-top: 19px;
+}
+
+/**************************
+HERO
+***************************/
+.hero {
+  background-color: #b4d0e8;
+  height: 90vh;
+}
+.hero-cont {
+  max-width: 1234px;
+  margin: 0 auto;
+  /* background-color: greenyellow; */
+  padding-top: 90px;
+}
+.title-hero {
+  font-weight: bolder;
+  font-size: 85px;
+  line-height: 1em;
+  padding-bottom: 40px;
+}
+.hero-box {
+  justify-content: space-between;
+  position: relative;
+}
+.box-text-hero {
+  flex-basis: 33%;
+}
+.box-img-hero {
+  width: 800px;
+}
+.box-text-hero > .button-blu {
+  line-height: 2.5em;
+  text-align: center;
+  width: 210px;
+  margin-top: 35px;
+}
+.annulla {
+  margin-top: 35px;
+}
+.lower-arrow {
+  font-weight: bolder;
+  font-size: 50px;
+  position: absolute;
+  bottom: 90px;
 }
