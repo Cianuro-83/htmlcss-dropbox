@@ -1,0 +1,52 @@
+/**************************
+RESET RULES
+***************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Almarai", sans-serif;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+.row {
+  display: flex;
+}
+
+/**************************
+HEADER
+***************************/
+.nav li {
+  display: inline-block;
+  padding: 0 19px;
+  align-items: center;
+}
+.menu {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  background-color: ;
+  line-height: 2em;
+}
+.button-blu {
+  color: white;
+  background-color: #3462ff;
+  margin-right: 19px;
+  margin-top: 19px;
+}
+.logo {
+  margin-top: 19px;
+}
