@@ -58,7 +58,33 @@ nav {
 .logo {
   margin-top: 19px;
 }
-
+/**************************
+CONTENITORI
+***************************/
+.big-cont {
+  max-width: 1234px;
+  margin: 0 auto;
+  background-color: greenyellow;
+  padding-top: 90px;
+}
+.small-cont {
+  max-width: 1036px;
+  margin: 0 auto;
+  background-color: rgb(250, 217, 2);
+  padding-top: 90px;
+  border: 5px solid red;
+}
+/**************************
+TITOLI
+***************************/
+.sub-section-title {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.card-title {
+  font-weight: bolder;
+  font-size: 40px;
+}
 /**************************
 HERO
 ***************************/
@@ -66,12 +92,7 @@ HERO
   background-color: #b4d0e8;
   height: 90vh;
 }
-.hero-cont {
-  max-width: 1234px;
-  margin: 0 auto;
-  /* background-color: greenyellow; */
-  padding-top: 90px;
-}
+
 .title-hero {
   font-weight: bolder;
   font-size: 85px;
@@ -102,4 +123,17 @@ HERO
   font-size: 50px;
   position: absolute;
   bottom: 90px;
+}
+/**************************
+OFFERTE
+***************************/
+.radio {
+  padding-top: 30px;
+}
+.f-annuale,
+.f-mensile {
+  display: inline-block;
+}
+.f-annuale {
+  padding-left: 50px;
 }
