@@ -68,7 +68,7 @@ CONTENITORI
 .big-cont {
   max-width: 1234px;
   margin: 0 auto;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   padding-top: 90px;
 }
 .small-cont {
@@ -373,6 +373,16 @@ ABOUT US
 }
 .testimonianza-name {
   padding-top: 40px;
+}
+img.designit,
+img.florida,
+img.arizona,
+img.toops,
+img.wbr,
+img.lplanet,
+img.hearst,
+img.ccq {
+  filter: invert(100);
 }
 /**************************
 JOIN US
