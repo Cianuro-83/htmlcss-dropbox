@@ -374,3 +374,28 @@ ABOUT US
 .testimonianza-name {
   padding-top: 40px;
 }
+/**************************
+JOIN US
+***************************/
+.join-us {
+  background-color: #b4d0e8;
+}
+.join-us.small-cont {
+  padding-bottom: 50px;
+}
+.button-blu.prova-free {
+  line-height: 3em;
+  padding: 0 25px;
+  margin-top: 0;
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  border: none;
+}
+.join-us.row {
+  justify-content: center;
+  align-items: flex-start;
+}
+.col-join {
+  flex-basis: 50%;
+}
