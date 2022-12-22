@@ -267,7 +267,7 @@ img.partner {
 }
 
 /**************************
-DROP
+DROPBOX BUSINESS
 ***************************/
 .dropbox-business.small-cont {
   border: 5px solid red;
@@ -280,7 +280,19 @@ DROP
 }
 .col-business.col100 {
   flex-basis: 100%;
+  padding-bottom: 25px;
 }
 .col-business.col33 {
   flex-basis: calc(100% / 3);
+  padding-bottom: 25px;
+}
+.col100.sub-section-title {
+  font-size: 20;
+}
+.col33.center {
+  padding: 0 12px;
+}
+.internal-col {
+  flex-basis: 100%;
+  flex-direction: ;
 }
