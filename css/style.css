@@ -314,52 +314,33 @@ ABOUT US
 }
 .sponsor {
   padding: 25%;
-  max-width: 300px;
-  max-height: 300px;
-  line-height: 150px;
-  text-align: center;
+  aspect-ratio: 1;
 }
 .sponsor.designit {
   background-color: #a2d39b;
   border: 10px solid #d0e9cd;
-  max-width: 280px;
-  max-height: 280px;
 }
 
 .sponsor.florida {
   background-color: #2893ce;
-  max-width: 280px;
-  max-height: 280px;
 }
 .sponsor.arizona {
   background-color: #61092b;
-  max-width: 280px;
-  max-height: 280px;
 }
 .sponsor.topps {
   background-color: #fb231c;
-  max-width: 280px;
-  max-height: 280px;
 }
 .sponsor.wbr {
   background-color: #d51c1f;
-  max-width: 280px;
-  max-height: 280px;
 }
 .sponsor.lplanet {
   background-color: #152481;
-  max-width: 280px;
-  max-height: 280px;
 }
 .sponsor.hearst {
   background-color: #b4d0e8;
-  max-width: 280px;
-  max-height: 280px;
 }
 .sponsor.ccq {
   background-color: #fbd830;
-  max-width: 280px;
-  max-height: 280px;
 }
 .testimoninza {
   max-width: 200px;
@@ -449,6 +430,21 @@ li.footer {
   line-height: 2.5em;
   font-size: 10px;
 }
-ul.footer {
-  padding-bottom: 100px;
+
+/**************************
+SCELTA DELLA LINGUA
+***************************/
+hr.language {
+  border: 1px solid white;
+  max-width: 100px;
+}
+span.mondo,
+span.language,
+span.upper-icon {
+  display: inline-block;
+  padding: 20px 0;
+  padding-right: 10px;
+  font-weight: lighter;
+  font-size: 11px;
+  margin-bottom: 50px;
 }
