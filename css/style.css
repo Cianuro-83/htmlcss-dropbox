@@ -34,6 +34,8 @@ nav {
   position: fixed;
   background-color: white;
   width: 100%;
+  z-index: 999;
+  padding: 8px 0;
 }
 .nav li {
   display: inline-block;
@@ -46,7 +48,6 @@ nav {
 }
 
 .main-header {
-  background-color: ;
   line-height: 2em;
 }
 .button-blu {
@@ -64,15 +65,15 @@ CONTENITORI
 .big-cont {
   max-width: 1234px;
   margin: 0 auto;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   padding-top: 90px;
 }
 .small-cont {
   max-width: 1036px;
   margin: 0 auto;
-  background-color: rgb(250, 217, 2);
+  /* background-color: rgb(250, 217, 2); */
   padding-top: 90px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 /**************************
 TITOLI
@@ -82,8 +83,20 @@ TITOLI
   font-size: 40px;
 }
 .card-title {
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 20px;
+}
+.card-prize {
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.card-duration {
+  font-weight: lighter;
+  font-size: 12px;
+  color: grey;
+  padding-top: 10px;
 }
 /**************************
 HERO
@@ -136,4 +149,81 @@ OFFERTE
 }
 .f-annuale {
   padding-left: 50px;
+}
+.card {
+  justify-content: space-between;
+}
+.col30 {
+  flex-basis: 32%;
+  border: 1px solid black;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.abbonamento {
+  text-align: center;
+  font-weight: lighter;
+  border-bottom: 1px solid #d8d8d9;
+  line-height: 2em;
+  padding: -10px;
+}
+.feature {
+  margin-top: 50px;
+}
+.feature > li {
+  margin-bottom: 30px;
+}
+.list-feature {
+  margin-right: 20px;
+}
+.button-blu {
+  line-height: 2em;
+  text-align: center;
+}
+.button-blu.b {
+  margin-top: 68px;
+}
+.button-blu.a {
+  margin-top: 85px;
+}
+.choice {
+  margin-top: 30px;
+}
+.link-choice {
+  text-decoration: underline;
+  color: #3462ff;
+}
+hr {
+  border-bottom: 1px solid grey;
+  width: 50px;
+  margin-top: 30px;
+}
+.specification {
+  margin-top: 50px;
+}
+.check-list {
+  margin-top: 30px;
+  list-style-type: ;
+  padding-left: 20px;
+}
+.check-list > li {
+  padding-bottom: 30px;
+}
+.col70 {
+  flex-basis: 70%;
+  border: 1px solid black;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.col29s {
+  flex-basis: 30%;
+  border: 1px solid black;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.card-orizzontale {
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.button-blu.button-blu-c {
+  padding: 0 20px;
 }
