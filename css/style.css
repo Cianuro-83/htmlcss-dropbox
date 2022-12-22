@@ -409,3 +409,22 @@ JOIN US
 .col-join {
   flex-basis: 50%;
 }
+/**************************
+FAQ
+***************************/
+.faq-title {
+  padding-bottom: 25px;
+}
+.faq-box {
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  line-height: 5em;
+  border-bottom: 1px solid grey;
+}
+.faq-box-last {
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  line-height: 5em;
+  border-bottom: 1px solid grey;
+  margin-bottom: 100px;
+}
