@@ -55,9 +55,12 @@ nav {
   background-color: #3462ff;
   margin-right: 19px;
   margin-top: 19px;
+  white-space: nowrap;
 }
-.logo {
+.logo a {
   margin-top: 19px;
+  padding-left: 0;
+  line-height: unset;
 }
 /**************************
 CONTENITORI
@@ -65,7 +68,7 @@ CONTENITORI
 .big-cont {
   max-width: 1234px;
   margin: 0 auto;
-  /* background-color: greenyellow; */
+  background-color: greenyellow;
   padding-top: 90px;
 }
 .small-cont {
@@ -73,7 +76,6 @@ CONTENITORI
   margin: 0 auto;
   /* background-color: rgb(250, 217, 2); */
   padding-top: 90px;
-  /* border: 5px solid red; */
 }
 /**************************
 TITOLI
@@ -108,7 +110,7 @@ HERO
 
 .title-hero {
   font-weight: bolder;
-  font-size: 85px;
+  font-size: 4.5rem;
   line-height: 1em;
   padding-bottom: 40px;
 }
@@ -120,7 +122,7 @@ HERO
   flex-basis: 33%;
 }
 .box-img-hero {
-  width: 800px;
+  flex-basis: 67%;
 }
 .box-text-hero > .button-blu {
   line-height: 2.5em;
@@ -222,8 +224,44 @@ hr {
 }
 .card-orizzontale {
   justify-content: space-between;
-  margin-bottom: 25px;
 }
 .button-blu.button-blu-c {
   padding: 0 20px;
+}
+/**************************
+PARTNER
+***************************/
+.partner.small-cont {
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.partner-img,
+.partner-text {
+  flex-shrink: 0;
+}
+.partner-img {
+  flex-basis: 60%;
+  padding-right: 15px;
+}
+.partner-text {
+  flex-basis: 40%;
+  padding-left: 10px;
+}
+.partner h3 {
+  padding-top: 50px;
+}
+.partner {
+  padding-top: 25px;
+}
+.button-blu.partner {
+  padding-top: 0;
+  max-width: 50%;
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+}
+img.partner {
+  display: block;
+  padding: 0;
+  max-width: 100%;
 }
