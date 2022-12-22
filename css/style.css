@@ -428,3 +428,27 @@ FAQ
   border-bottom: 1px solid grey;
   margin-bottom: 100px;
 }
+
+/**************************
+FOOTER
+***************************/
+.main-footer {
+  background-color: black;
+  color: white;
+}
+footer > .big-cont {
+  padding-top: 50px;
+}
+.big-cont.footer {
+  justify-content: space-between;
+}
+.card-prize.footer {
+  padding-bottom: 25px;
+}
+li.footer {
+  line-height: 2.5em;
+  font-size: 10px;
+}
+ul.footer {
+  padding-bottom: 100px;
+}
