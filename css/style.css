@@ -289,3 +289,12 @@ DROPBOX BUSINESS
 .business-description {
   padding-top: 25px;
 }
+.users {
+  padding-bottom: 50px;
+}
+.see-more {
+  line-height: 4em;
+  max-width: 30%;
+  color: #3462ff;
+  text-decoration: underline;
+}
