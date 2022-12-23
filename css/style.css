@@ -30,37 +30,39 @@ a {
 /**************************
 HEADER
 ***************************/
-nav {
+.menu {
   position: fixed;
   background-color: white;
   width: 100%;
   z-index: 999;
   padding: 8px 0;
-}
-.nav li {
-  display: inline-block;
-  padding: 0 19px;
-  align-items: center;
-}
-.menu {
   justify-content: space-between;
   align-items: center;
 }
+.nav li {
+  display: inline-block;
+  padding: 10;
+  align-items: center;
+  margin: 10px 10px;
+}
 
 .main-header {
-  line-height: 2em;
+  line-height: 3em;
 }
+.button-blu-start {
+  color: white;
+  background-color: #3462ff;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
 .button-blu {
   color: white;
   background-color: #3462ff;
-  margin-right: 19px;
-  margin-top: 19px;
   white-space: nowrap;
 }
-.logo a {
-  /* margin-top: 19px; */
-  padding-left: 0;
-  line-height: unset;
+.logo {
+  max-width: 70%;
 }
 /**************************
 CONTENITORI
@@ -136,8 +138,8 @@ HERO
 .lower-arrow {
   font-weight: bolder;
   font-size: 50px;
-  position: absolute;
-  bottom: 90px;
+  position: relative;
+  top: 10%;
 }
 /**************************
 OFFERTE
