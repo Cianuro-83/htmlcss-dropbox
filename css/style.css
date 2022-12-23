@@ -231,10 +231,27 @@ hr {
 }
 .col-landscape {
   flex-basis: 100%;
-  border: 1px solid red;
-  color: red;
+  border: 1px solid grey;
+  color: black;
   margin-top: 40px;
+  text-align: center;
+  line-height: 2em;
 }
+.landscape-name {
+  border-bottom: 1px solid grey;
+}
+.land70 {
+  color: red;
+  text-align: left;
+  flex-grow: 1;
+  padding-left: 25px;
+}
+.land30 {
+  color: #152481;
+  text-align: left;
+  flex-basis: 40%;
+}
+
 .card-orizzontale {
   justify-content: space-between;
 }
