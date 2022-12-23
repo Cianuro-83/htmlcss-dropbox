@@ -58,7 +58,7 @@ nav {
   white-space: nowrap;
 }
 .logo a {
-  margin-top: 19px;
+  /* margin-top: 19px; */
   padding-left: 0;
   line-height: unset;
 }
@@ -166,19 +166,21 @@ li.icon {
 }
 .col30 {
   flex-basis: 32%;
-  border: 1px solid black;
+  border: 1px solid grey;
   padding: 0 20px;
   margin-top: 30px;
 }
 .row.card {
   flex-wrap: wrap;
 }
+
 .abbonamento {
   text-align: center;
   font-weight: lighter;
   border-bottom: 1px solid #d8d8d9;
   line-height: 2em;
-  padding: -10px;
+  padding: 0px;
+  display: block;
 }
 .feature {
   margin-top: 50px;
@@ -241,7 +243,6 @@ hr {
   border-bottom: 1px solid grey;
 }
 .land70 {
-  color: red;
   text-align: left;
   flex-grow: 1;
   padding-left: 25px;
@@ -249,7 +250,18 @@ hr {
 .land30 {
   color: #152481;
   text-align: left;
-  flex-basis: 40%;
+  flex-basis: 30%;
+  padding-right: 10px;
+  padding-left: 35px;
+  padding-top: 25px;
+}
+.cont-lanscape {
+  justify-content: space-between;
+}
+.text-landscape {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  line-height: 1.2em;
 }
 
 .card-orizzontale {
