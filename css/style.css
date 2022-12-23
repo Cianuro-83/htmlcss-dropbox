@@ -155,11 +155,23 @@ OFFERTE
 .card {
   justify-content: space-between;
 }
+li.icon {
+  gap: 10px;
+}
+.check {
+  color: #345cff;
+}
+.invisible {
+  color: white;
+}
 .col30 {
   flex-basis: 32%;
   border: 1px solid black;
   padding: 0 20px;
   margin-top: 30px;
+}
+.row.card {
+  flex-wrap: wrap;
 }
 .abbonamento {
   text-align: center;
@@ -181,12 +193,7 @@ OFFERTE
   line-height: 2em;
   text-align: center;
 }
-.button-blu.b {
-  margin-top: 68px;
-}
-.button-blu.a {
-  margin-top: 85px;
-}
+
 .choice {
   margin-top: 30px;
 }
@@ -221,6 +228,12 @@ hr {
   border: 1px solid black;
   padding: 0 20px;
   margin-top: 30px;
+}
+.col-landscape {
+  flex-basis: 100%;
+  border: 1px solid red;
+  color: red;
+  margin-top: 40px;
 }
 .card-orizzontale {
   justify-content: space-between;
@@ -315,6 +328,8 @@ ABOUT US
 .sponsor {
   padding: 25%;
   aspect-ratio: 1;
+  max-width: 100%;
+  min-width: 50%;
 }
 .sponsor.designit {
   background-color: #a2d39b;
